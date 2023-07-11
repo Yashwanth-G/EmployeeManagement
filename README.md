@@ -1,4 +1,5 @@
 # Employee Management
+This is a full-stack java applciation that mainly built on Java - backend & React - frontend
 ## Technologies Used
 - Spring Boot 3
 - Spring 6
