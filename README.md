@@ -1,5 +1,7 @@
 # Employee Management
+
 This is a full-stack java applciation that mainly built on Java - backend & React - frontend
+
 ## Technologies Used
 - Spring Boot 3
 - Spring 6
@@ -15,3 +17,10 @@ This is a full-stack java applciation that mainly built on Java - backend & Reac
 - NPM
 - Visual Studio Code IDE
 - Axios
+- 
+## REST APIs for Employee Management Module
+- Add Employee
+- Get Employee
+- Get All Employees
+- Update Employee
+- Delete Employee
