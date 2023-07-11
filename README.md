@@ -4,7 +4,7 @@ This is a full-stack java application that mainly built on Java - backend & Reac
 
 ## Architecture
 
-This full-stack application follows Client-Server model. Both front-end and back-end are loosely coupled. Backend application will expose the REST APIs that are developed using Java, Spring Boot and the front end applciation will consume those REST APIs that is built using React. 
+This full-stack application follows Client-Server model. Both front-end(client) and back-end(server) are loosely coupled. Backend application will expose the REST APIs that are developed using Java, Spring Boot and the front end applciation will consume those REST APIs that is built using React. 
 
 Backend Applciation is built in 3 layers - Model, Service and DAO layers. 
 Frontend Application consists of Router, Components and Services. To make REST API call to backend applciation this project uses Axios HTTP Library as React alone can not make HTTP calls to Backend application. 
