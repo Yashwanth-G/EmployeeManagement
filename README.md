@@ -24,3 +24,10 @@ This is a full-stack java application that mainly built on Java - backend & Reac
 - Get All Employees
 - Update Employee
 - Delete Employee
+
+## Front End UI for Employee Management Module
+- Add New Department
+- List the Departments
+- Update existing Departments
+- Delete existing Department
+- Add Employee to a particular Department
