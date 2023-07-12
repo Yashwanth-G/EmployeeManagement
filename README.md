@@ -43,5 +43,5 @@ Payload used is JSON i.e., the data exchanged between Frontend and backend appli
 
 ## Design Patterns & Best Practices Used:
 - SOLID
-- Adapter Design Pattern
+- Dependency Injection
 - Builder Design Pattern
