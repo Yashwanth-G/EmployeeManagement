@@ -40,3 +40,8 @@ Payload used is JSON i.e., the data exchanged between Frontend and backend appli
 - Update existing Departments
 - Delete existing Department
 - Add Employee to a particular Department
+
+## Design Patterns & Best Practices Used:
+- SOLID
+- Dependency Injection
+- Builder Design Pattern
