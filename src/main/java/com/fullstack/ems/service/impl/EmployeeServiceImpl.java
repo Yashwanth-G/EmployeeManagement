@@ -9,7 +9,6 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -55,5 +54,12 @@ public class EmployeeServiceImpl implements EmployeeService {
         employee.setEmail(updatedEmployee.getEmail());
         Employee updatedEmploye = repository.save(employee);
         return mapper.map(updatedEmploye, EmployeeDto.class);
+    }
+
+    @Override
+    public void deleteEmployee(long id) {
+        Employee employee = repository.findById(id).orElseThrow(() ->
+                new ResourceNotFoundException("Employee is not exists with given ID: "+id));
+        repository.delete(employee);
     }
 }

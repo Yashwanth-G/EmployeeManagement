@@ -7,7 +7,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.awt.image.ReplicateScaleFilter;
 import java.util.List;
 
 @RestController
@@ -41,4 +40,9 @@ public class EmployeeController {
         return new ResponseEntity<>(updated, HttpStatus.OK);
     }
 
+    @DeleteMapping("{id}")
+    public ResponseEntity<String> deleteEmployee(@PathVariable long id){
+        employeeService.deleteEmployee(id);
+        return ResponseEntity.ok("Employee Deleted Successfully");
+    }
 }
